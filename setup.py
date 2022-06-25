@@ -17,7 +17,7 @@ setup(
     url="https://github.com/eduardotaipe/django-sequence-field",
     long_description=long_description,
     packages=["sequence_field"],
-    install_requires=["django == 3.2"],
+    install_requires=["django >= 3.2"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
